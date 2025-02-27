@@ -124,49 +124,49 @@ font-size: 3em;
     align-items: end;
 }
 
-.portfolio-item
-{
+.career-item {
+    display: flex;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+}
+.portfolio-item {
     width: 50%;
-    display:flex;
-    flex-wrap: wrap;
+    display: flex;
     position: relative;
     padding: 20px;
     box-sizing: border-box;
+    align-items: center;
+  }
   
-}
-
-.career-item
-{
-    width: 100%;
-    display:flex;
-    flex-wrap: wrap;
+  .photo-exp-thumb {
+    width: 25%;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .item-text {
+    width: 65%;
+    word-wrap: break-word;
     position: relative;
-    padding: 20px;
-    box-sizing: border-box;
+    padding: 10px;
+  }
   
-}
- 
-.item-text {
-   width: 65%;
-   word-wrap: break-word;
-   position: relative;
-   padding: 10px;
-}
-
-.item-title, .career-title {
-   font-size: 1.5em;
-   padding-bottom: 5px;
-}
-
-.item-description, .career-description {
-   padding-bottom: 7px;
-}
-
-.photo-link {
-   width: 3rem;
-   height: 3rem;
-}
-
-.link {
+  .item-title, .career-title {
+    font-size: 1.5em;
+    padding-bottom: 5px;
+  }
+  
+  .item-description, .career-description {
+    padding-bottom: 7px;
+  }
+  
+  .photo-link {
+    width: 3rem;
+    height: 3rem;
+ }
+  
+  .link {
     text-align: right;
-}
+  }

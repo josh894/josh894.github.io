@@ -70,13 +70,12 @@ function App() {
         </div>
 
         <div className="portfolio-item">
-
-            <img className = 'photo-thumb' alt='thumbnail' src='./MountTrack.png'></img>
-            <div className = 'item-text'>
-              <p className="item-title">MountTrack</p>
-              <p className="item-description">• Created an add-on for World of Warcraft allowing users the ability to track in-game collectables.. </p>
-              <p className="item-description">• Gained 2000 unique downloads utilizing Blizzard's Lua-based API to scrape for all obtainable items.</p>                         
-            </div>
+          <img className="photo-thumb" alt="thumbnail" src="./MountTrack.png" />
+          <div className="item-text">
+            <p className="item-title">MountTrack</p>
+            <p className="item-description">• Created an add-on for World of Warcraft allowing users the ability to track in-game collectables.</p>
+            <p className="item-description">• Gained 2000 unique downloads utilizing Blizzard's Lua-based API to scrape for all obtainable items.</p>                         
+          </div>
         </div>
       </section>
 

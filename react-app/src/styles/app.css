@@ -51,7 +51,7 @@ table {
 .body-container {
    
    z-index: 1;
-   position: absolute;
+   position: relative;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
@@ -59,11 +59,12 @@ table {
    flex-wrap: wrap;
    text-align: left;
    background-color: #363636;
-   height: 80vh;
-   width: 120vh;
+   height: 75%;
+   width: 75%;
    margin: 0;
    padding: 20px;
    overflow: auto;
+   overflow-x: hidden;
 }
 
 .full-width
@@ -96,7 +97,11 @@ font-size: 3em;
 
 .photo-container
 {
-    width: 12%;
+    display: flex;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
 }
 
 .photo {

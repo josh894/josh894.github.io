@@ -21,19 +21,15 @@ function App() {
             </div>
           
       <section className = 'body-text'>
-        
+      <div className="career-item">
         <div className="photo-container">
           <img className = 'photo' alt='Joshua Davidson' src='/assets/Headshot.jpg'></img>
         </div>
-          <p className="photo-sentence">Hi! I am Joshua Davidson, a Toronto-based software developer looking to further expand my knowledge and skill-sets in the industry. I strive
-                                        to learn from others and am always searching for a bigger challenge to face. <br></br><br></br> 
-
-                                        My current proficiencies are within the world of Data Science using Python and C, but I am willing and eager to learn
-                                        about other sectors and languages within the software developing industry. Check out my <b>resume</b> for more info! <br></br><br></br> 
-
-                                        When I'm not working on personal projects, you can find me coordinating with my guild in intense and strategic mythic raiding in World of Warcraft.
-                                        </p>
-        
+        <p className="career-description">Hi! I am Joshua Davidson, a Toronto-based software developer looking to further expand my knowledge and skill-sets in the industry. I strive
+                                        to learn from others and am always searching for a bigger challenge to face.<br></br><br></br>
+        My current proficiencies are within the world of Data Science using Python and C, but I am willing and eager to learn
+                                        about other sectors and languages within the software developing industry. Check out my <b>resume</b> for more info! </p>
+       </div>
       </section>
 
       <section id="portfolio-container">
@@ -66,7 +62,7 @@ function App() {
             <img className = 'photo-thumb' alt='thumbnail' src='/assets/SimpleArmory.jpg'></img>
             <div className = 'item-text'>
               <p className="item-title">Simple Armory</p>
-              <p className="item-description">• Consistent contributor to Kevin Clement's <a href='https://simplearmory.com/#/us/kelthuzad/asmongold/collectable/mounts' target="_blank" rel="noopener noreferrer">open source website</a>.</p> 
+              <p className="item-description">• Consistent contributor to Kevin Clement's <a href='https://simplearmory.com/#/us/illidan/highmurray/collectable/mounts' target="_blank" rel="noopener noreferrer">open source website</a>.</p> 
               <p className="item-description">• Up-kept json files that held information on hundreds of items updated monthly and refactored archaic json structures.</p> 
             </div>
         </div>

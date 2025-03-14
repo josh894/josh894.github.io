@@ -25,10 +25,12 @@ function App() {
         <div className="photo-container">
           <img className = 'photo' alt='Joshua Davidson' src='/assets/Headshot.jpg'></img>
         </div>
+        <div className="item-text">
         <p className="career-description">Hi! I am Joshua Davidson, a Toronto-based software developer looking to further expand my knowledge and skill-sets in the industry. I strive
                                         to learn from others and am always searching for a bigger challenge to face.<br></br><br></br>
         My current proficiencies are within the world of Data Science using Python and C, but I am willing and eager to learn
                                         about other sectors and languages within the software developing industry. Check out my <b>resume</b> for more info! </p>
+                                        </div>
        </div>
       </section>
 

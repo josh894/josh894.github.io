@@ -23,12 +23,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
-body {
-    background-color: #242424;
-    line-height: 1;
-    width: auto;
-    height: 1000px;
-}
 ol, ul {
     list-style: none;
 }
@@ -51,7 +45,7 @@ table {
 .body-container {
    
    z-index: 1;
-   position: relative;
+   position: absolute;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
@@ -136,6 +130,7 @@ font-size: 3em;
 
 .career-item {
     display: flex;
+    flex-wrap: wrap;
     position: relative;
     padding: 20px;
     box-sizing: border-box;
@@ -145,6 +140,7 @@ font-size: 3em;
     width: 50%;
     display: flex;
     position: relative;
+    flex-wrap: wrap;
     padding: 20px;
     box-sizing: border-box;
     align-items: center;
@@ -179,4 +175,21 @@ font-size: 3em;
   
   .link {
     text-align: right;
+  }
+
+  @media screen and (max-width: 600px){
+    .photo-container{
+        align-items:center;
+        text-align: center;
+    }
+    .portfolio-item{
+        width: 100%;
+        text-align: center;
+    }
+
+    .body-text{
+        width: 100%;
+        align-items:center;
+        text-align: center;
+    }
   }
